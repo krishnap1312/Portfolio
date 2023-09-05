@@ -1,0 +1,1108 @@
+@import url("//fonts.googleapis.com/css2?family=Bitter:wght@500&family=Edu+SA+Beginner:wght@700&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Edu+SA+Beginner:wght@700&family=Varela+Round&family=Xanh+Mono&display=swap");
+
+/* ! Navigation Starts */
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: gray;
+  z-index: 100; /* Ensure it's above other content */
+  transition: background-color 0.3s ease-in-out; /* Add a smooth color transition if needed */
+}
+
+.TopNav {
+  font-size: 1.2vw;
+  padding: 0.5vw;
+  margin-left: -20vw;
+}
+
+.Links {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+  
+}
+
+.Linkss {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+.navmars {
+  margin: 1vw 2vw;
+  padding: 1vw;
+  border-radius: 1vw;
+  border: 0.1vw black solid;
+  transition: 0.5s ease-in-out;
+}
+
+.navmars:hover {
+  transform: scale(1.2);
+  color: white;
+  box-shadow: 0vw 0vw 1vw white;
+}
+
+
+
+@media (max-width: 700px) {
+  .navmars {
+    font-size: 2.5vw;
+  }
+  .TopNav {
+    margin-left: -50vw;
+  }
+ 
+}
+
+/* ! Navigation ends */
+
+/* ?------------------------------------------------------------------------------- */
+
+/* ! NavImage my pic Starts */
+
+.Navimg {
+  background-image: url("../../public/pics.png");
+  height: 50vw;
+  width: vw;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  margin-top: 8.9vw;
+}
+
+.navmar {
+  margin: 0vw 0vw 0vw 20vw;
+}
+
+.navmar:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.Intro {
+  font-family: "DM Mono", monospace;
+  display: flex;
+}
+
+.NameTitle {
+  font-size: 5vw;
+  margin-left: 0vw;
+  text-align: center;
+}
+
+.FullStackHeader {
+  color: #69d294;
+  font-size: 3.2vw;
+  margin-top: 0;
+  margin-left: -5vw;
+}
+
+.NavIconsAd {
+  float: right;
+  font-size: 2vw;
+  margin: 5vh 0vw;
+}
+
+.navicons {
+  position: relative;
+  top: 0vw;
+  font-size: 2vw;
+}
+
+.navicons:hover {
+  transform: scale(1.5);
+  transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 700px) {
+  .FullStackHeader {
+    position: relative;
+    top: -10vw;
+  }
+
+  .Intro {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .Navimg {
+    background-size: calc();
+  }
+}
+
+/* ! NavImage my pic ends */
+/* ?-------------------------------------------------------------------------- */
+
+/* ! Intro Starts */
+.ICODE {
+  font-size: 2.8vw;
+  margin: 0vw 5vw;
+  color: #461959;
+}
+
+.IntroText,
+.IntroTexts {
+  width: 50vw;
+  font-size: 1.3vw;
+  margin: 0vw 3vw;
+  text-align: justify;
+  margin-bottom: 3vw;
+}
+
+.Location {
+  font-size: 2.8vw;
+  margin: 0vw 10vw;
+}
+
+.IntroTexts {
+  margin-bottom: 10vw;
+}
+
+.passportPic {
+  margin: 5vw 15vw;
+  width: 20vw;
+}
+
+@media (max-width: 700px) {
+  .ICODE {
+    font-size: 6.6vw;
+    margin: 0vw 14vw;
+  }
+
+  .IntroText,
+  .IntroTexts {
+    text-align: left;
+    font-size: 4.4vw;
+    margin: 0vw 10vw;
+    width: 80vw;
+  }
+
+  .IntroTexts {
+    margin: 5vw 10vw;
+  }
+
+  .Location {
+    font-size: 6.4vw;
+  }
+
+  .passportPic {
+    width: 40vw;
+    margin: 5vw 30vw;
+  }
+}
+
+/* ! Intro Ends */
+/* ?-------------------------------------------------------------------------------- */
+
+/* ! Ribbon Starts */
+
+.Rib {
+  background-color: #393e46;
+  color: white;
+  height: 35vw;
+}
+
+.RibbonDiv {
+  display: flex;
+}
+
+.divflex1 {
+  flex: 1;
+}
+
+.LinkDiv > .Links {
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.LinkDiv:hover,
+.Links:hover {
+  color: #40f8ff;
+  transition: 0.5s ease-in-out;
+}
+
+.ImgRib {
+  max-width: 30%;
+  margin: 2vw 9vw;
+}
+
+.RibText {
+  margin: 2vw 4vw;
+  font-size: 1.2vw;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .Rib {
+    background-color: #393e46;
+    color: white;
+    height: 255vw;
+  }
+
+  .RibbonDiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .RibText {
+    font-size: 4vw;
+    margin: 8vw 4vw;
+  }
+}
+
+/* ! Ribbon Ends */
+/* ?--------------------------------------------------------------- */
+
+/* ! Programming Skills Starts */
+.marginSkills {
+  margin: 2vw;
+  color: #49af73;
+}
+
+.ProgrammingSkills {
+  font-size: 1.5vw;
+}
+
+.marginSkills > h4 {
+  font-weight: bolder;
+  font-size: 2vw;
+}
+
+.ProgrammingSkillsText {
+  margin: 1.5vw 10vw 0vw 0vw;
+}
+
+.HeadSkills {
+  font-size: 4vw;
+  color: #49af73;
+  text-decoration: underline;
+}
+
+.PSkills {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 700px) {
+  .HeadSkills {
+    font-size: 6.5vw;
+    margin: 3vw 0vw;
+  }
+
+  .marginSkills {
+    margin: 5vw 0vw;
+  }
+
+  .PSkills {
+    display: block;
+    margin: 15vw 0vw;
+    flex-direction: column;
+  }
+
+  .marginSkills > h4 {
+    font-size: 3.5vw;
+  }
+
+  .ProgrammingSkillsText {
+    font-size: 3.8vw;
+    text-align: justify;
+    margin-left: 1.5vw;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+}
+
+/* ! Programming Skills Ends  */
+
+/* ?------------------------------------------------------------------ */
+
+/* ! Language Skills Starts */
+
+.Langu {
+  background-image: url("../../public/Language.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30vw;
+}
+
+.LanguagesDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.LanguageGrid {
+  display: grid;
+  text-align: center;
+}
+
+.LangHead {
+  display: flex;
+  justify-content: center;
+}
+
+.LangHeading {
+  background-color: white;
+  margin: 2vw;
+  padding: 2vw;
+  border-radius: 1vw;
+}
+
+.LangHeading > h2 {
+  font-size: 4vw;
+}
+
+.marginLang {
+  margin: 2vw 10vw;
+  padding: 2vw;
+  border-radius: 2vw;
+  font-size: 2.5vw;
+  color: white;
+}
+
+.LangPro {
+  font-size: 1.8vw;
+  margin: 2vw;
+}
+
+@media (max-width: 700px) {
+  .Langu {
+    height: 100vw;
+  }
+  .LanguagesDiv {
+    display: block;
+  }
+  .LangHeading > h2 {
+    font-size: 10vw;
+  }
+  .marginLang {
+    font-size: 6vw;
+  }
+  .LangPro {
+    font-size: 3.8vw;
+  }
+}
+
+/* ! Language Skills Ends */
+/*  ?----------------------------------------------------------------- */
+
+/* ! Education and Experience starts */
+.education-timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.timeline-item {
+  margin-bottom: 20px;
+  border-left: 2px solid #333;
+  padding-left: 20px;
+}
+
+.timeline-item {
+  margin-bottom: 20px;
+  border-right: 2px solid #333;
+  padding-left: 13vw;
+}
+
+.education-timeline h2 {
+  text-align: center;
+}
+
+.timeline-item h3,
+.timeline-item h3 {
+  margin: 0;
+  font-size: 2.5vw;
+  margin: 1.5vw 0vw;
+}
+
+.timeline-item p,
+.timeline-item p {
+  margin: 5px 0;
+  font-size: 1.8vw;
+}
+
+.Headers {
+  font-size: 3vw;
+  color: #102c57;
+  text-decoration: underline;
+  margin: 1vw;
+}
+
+@media (max-width: 700px) {
+  .Headers {
+    font-size: 8vw;
+  }
+
+  .timeline-item > h3 {
+    font-size: 6vw;
+    margin: 0;
+  }
+  .timeline-item > p {
+    font-size: 5vw;
+  }
+}
+
+/* ! Education and Experience ends */
+/* ?----------------------------------------------------------------- */
+
+/* ! Portfolio Starts */
+
+.PorfolioHeader {
+  font-size: 3vw;
+  margin: 5vw 0vw;
+  background-color: #445069;
+  padding: 4vw;
+  color: #ffffff;
+  text-align: center;
+}
+
+.ALLCardDiv {
+  margin: 1.5vw;
+  text-align: center;
+}
+
+.BaccPortfolio {
+  background-color: black;
+  color: white;
+  height: 135vw;
+}
+
+.cardFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.CardStyle {
+  font-weight: bolder;
+  font-size: 1.3vw;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.CardText {
+  font-size: 1.2vw;
+  text-align: left;
+  padding: 1vw;
+  height: 30vw;
+}
+
+.Card {
+  border: 0.1vw gray solid;
+  border-radius: 1vw;
+  height: auto;
+  padding: 0.5vw;
+  transition: 0.5s ease-in-out;
+  width: 30vw;
+  margin: 2.2vw 0vw;
+}
+
+.CardHeader > h1 {
+  font-size: 2.6vw;
+}
+
+.Card:hover {
+  box-shadow: 0px 0px 5vw white;
+  transform: scale(1.1);
+}
+
+.CardHeader {
+  border-bottom: 0.1vw gray solid;
+
+  padding: 1.2vw;
+}
+
+.CardFooter {
+  border-top: 0.1vw gray solid;
+}
+
+.CardButton {
+  font-size: 1.5vw;
+  margin: 1vw;
+  padding: 1vw;
+  border-radius: 1vw;
+  background-color: #313866;
+  color: #d5ffd0;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.CardButton:hover {
+  transition: 0.5s;
+  box-shadow: 0px 0px 25px #40f8ff;
+}
+
+.AllProjectCard {
+  border: 0.1vw gray solid;
+  border-radius: 1vw;
+  height: auto;
+  padding: 0.5vw;
+  transition: 0.5s ease-in-out;
+  width: 30vw;
+  margin: 2.2vw 0vw;
+}
+
+.AllProjectCard:hover {
+  box-shadow: 0px 0px 5vw white;
+  transform: scale(1.1);
+}
+
+@media (max-width: 700px) {
+  .cardFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Card {
+    width: 80vw;
+    height: 150vw;
+    margin: 10vw 2vw;
+  }
+  .CardHeader > h1 {
+    font-size: 6vw;
+  }
+  .PorfolioHeader {
+    font-size: 7vw;
+  }
+  .CardText {
+    font-size: 4vw;
+  }
+  .CardStyle {
+    font-size: 4vw;
+  }
+  .CardFooter {
+    margin-top: 90vw;
+  }
+  .CardButton {
+    margin: 5vw;
+    font-size: 4vw;
+  }
+  .BaccPortfolio{
+    height: 520vw;
+  }
+}
+
+/* ! Portfolio Ends */
+
+/* ?-------------------------------------------------------------------------- */
+
+/* ! ALLCardDiv Starts */
+
+.AllProjectCard{
+  width: 74.2vw;
+  
+}
+
+.ProjectsName{
+  font-size: 2vw;
+  text-decoration: none;
+  list-style: none;
+  text-align: left;
+}
+.GridProjects{
+  display: grid;
+}
+
+.ProjectsNames{
+  color: white;
+}
+
+.projectsDivs{
+  display: flex;
+  justify-content: space-evenly;
+}
+.projectImg{
+  width: 40vw;
+}
+
+
+ .CardButtons {
+    margin: 5vw;
+    font-size: 2vw;
+    background-color: #102c57;
+    color: #d5ffd0;
+    border-radius: 1vw;
+    padding: 1vw;
+
+  }
+
+  .CardButtons:hover {
+  transition: 0.5s;
+  box-shadow: 0px 0px 25px #40f8ff;
+}
+
+@media (max-width:700px){
+.AllProjectCard{
+  width: 80vw;
+  height: 130vw;
+}
+
+.ProjectsName{
+  font-size: 5vw;
+  text-decoration: none;
+  list-style: none;
+  text-align: left;
+}
+
+.projectsDivs{
+  display: flex;
+  flex-direction: column-reverse;
+
+}
+.CardButtons{
+  font-size: 4vw;
+  border-radius: 2vw;
+  padding: 2vw;
+}
+.projectImg{
+  width: 75vw;
+}
+
+}
+
+/* ! ALLCardDiv Ends */
+/* ?----------------------------------------------------------- */
+
+/* ! Contact Form Starts */
+
+.Form{
+  padding-top: 5vw;
+  padding-bottom: 10vw;
+  background-color: #E9EDC9;
+}
+
+.contactForm{
+  display: flex;
+  margin-top: 0vw;
+  justify-content: space-evenly;
+}
+
+.formIcons{
+  color: black;
+  margin: 1vw;
+  font-size: 2vw;
+  transition: .5s ease-in-out;
+}
+
+.formInput{
+  margin: 2vw;
+  
+}
+
+.forminputs{
+  background-color: #E9EDC9;
+  font-size: 2vw;
+  width: 40vw;
+  border: .1vw black solid;
+  padding: .5vw 3vw;
+}
+
+.forminputsL{
+  background-color: #E9EDC9;
+  border: .1vw black solid;
+  height: 10vw;
+  font-size: 2vw;
+  width: 40vw;
+  padding: .5vw 3vw;
+}
+
+.forminputs:placeholder-shown, .forminputsL:placeholder-shown {
+  font-size: 2vw;
+  padding: 0.5vw 3vw;
+}
+
+.Resume{
+  margin: 5vw 0vw 10vw 0vw;
+  padding: 3vw;
+  border-radius: 1vw;
+  }
+
+  .ContactButtonDiv{
+    display: flex;
+    justify-content: center;
+  }
+
+.Resume:hover{
+  box-shadow: 0vw 0vw 1vw red;
+}
+
+.ContactButton{
+  width: 8vw;
+  text-align: center;
+  padding: 1.1vw;
+  border-radius: 1vw;
+  transition: 1s ease-in-out;
+  font-weight: bold;
+  letter-spacing: .2vw;
+  box-shadow: 0vw 0vw 3vw #2CD3E1 inset;
+  
+}
+
+.ContactButton:hover{
+  box-shadow: 0vw 0vw 3vw #79E0EE inset;
+  width: 10vw;
+  font-weight: bolder;
+  font-size: 1.2vw;
+  transition: .5s ease-in-out;
+}
+
+.formIcons:hover{
+  font-size: 5vw;
+}
+
+@media (max-width:700px){
+.Resume{
+  margin: 5vw 0vw 10vw 0vw;
+  padding: 3vw;
+  border-radius: 3vw;
+}
+
+.contactForm{
+  display: flex;
+  width: 90vw;
+  margin: 0vw 15vw;
+  flex-direction: column;
+  
+}
+
+.forminputs{
+  border: .3vw black solid;
+  font-size: 8vw;
+  padding: 2vw;
+  width: 70vw;
+  height: 9vw;
+}
+
+.forminputsL{
+  border: .3vw black solid;
+  height: 30vw;
+  width: 70vw;
+  font-size: 8vw;
+}
+
+.forminputs:placeholder-shown, .forminputsL:placeholder-shown {
+  font-size: 6vw;
+  padding: 6.5vw 6vw;
+  
+}
+
+.ContactButtonDiv{
+  width: 70vw;
+  margin: 5vw 0vw;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.ContactButton{
+  width: 26vw;
+  border-radius: 4vw;
+}
+
+.ContactButton:hover{
+  box-shadow: 0vw 0vw 7vw #79E0EE inset;
+  width: 30vw;
+  font-weight: bolder;
+  font-size: 5.2vw;
+  transition: .5s ease-in-out;
+}
+
+.formIcons{
+  font-size: 8vw;
+  margin: 5.45vw;
+}
+
+.formIcons:hover{
+  font-size: 10vw;
+}
+
+}
+
+/* ! Contact Form Ends */
+/* ?------------------------------------------------------------------------------------------------------- */
+
+/* ! Github Starts */
+.Github {
+  position: relative;
+  width: 300px; /* Adjust to your desired width */
+  height: 200px;
+}
+
+.GithubDiv{
+  width: 100.5vw;
+  height: 46vw;
+  background-size: contain;
+  background-image: url('../../public/Github.png'); 
+  filter: blur(.3vw); 
+  background-repeat: no-repeat;
+  }
+
+.GitHubqrCode {
+  position: relative;
+  top: -35vw;
+  left: 41vw;
+}
+
+.GitHubqrCodeText{
+  position: relative;
+  top: 0vw;
+  margin-bottom: 8vw;
+  left: -12vw;
+  width: 43vw;
+  padding: 1.2vw;
+  color: white;
+  background-color: black;
+}
+
+@media (max-width:700px) {
+  .GithubDiv{
+    background-image: url("../../public/GithubSmall.png");
+    width: 100vw;
+    height: 100vw;
+    filter: blur(.5vw); 
+    background-repeat: no-repeat;
+    background-size:cover ;
+  }
+  .GitHubqrCode {
+    position: relative;
+    top: -25vw;
+    left: 18vw;
+    
+  }
+  .GitHubqrCodeText{
+    position: relative;
+    top: -10vw;
+    margin-bottom: 8vw;
+    left: -17vw;
+    width: 100vw;
+    padding: 2vw;
+    color: black;
+    background-color: white;
+    font-size: 6vw;
+  }
+}
+
+/* ! Github Ends*/
+/* ?------------------------------------------------------------------------------------------------------------------------ */
+
+
+/* ! Instagram Starts */
+.Instagram{
+  height: 46vw;
+}
+
+.InstagramDiv{
+  width: 99vw;
+  height: 45vw;
+  background-size: cover;
+  background-image: url('../../public/Instagram.png'); 
+  filter: blur(.3vw); 
+  background-repeat: no-repeat;
+}
+
+.InstagramqrCode{
+  position: relative;
+  top: -40vw;
+  left: 41vw;
+}
+
+.InstagramQR{
+  width: 20vw;
+}
+
+.InstagramCodeText{
+  position: relative;
+  top: 0vw;
+  margin-bottom: 8vw;
+  left: -15vw;
+  width: 51vw;
+  padding: 1vw;
+  color: white;
+  background-color: black;
+}
+
+
+@media (max-width:700px) {
+  .InstagramDiv{
+    background-image: url("../../public/InstagramSmall.jpg");
+    width: 100vw;
+    height: 200vw;
+    background-size: contain;
+    filter: blur(.8vw); 
+    background-repeat: no-repeat;
+  }
+  .InstagramqrCode {
+    position: relative;
+    top: -150vw;
+    left: 20vw;
+  }
+  .InstagramQR{
+    width: 60vw;
+    
+  }
+  .InstagramCodeText{
+    position: relative;
+    top: 0vw;
+    margin-bottom: 8vw;
+    left: -6vw;
+    padding: 3vw;
+    text-align: center;
+    width: 70vw;
+    color: black;
+    background-color: white;
+    font-size: 6vw;
+  }
+  
+}
+
+
+/* ! Instagram Ends */
+/* ?------------------------------------------------------------------------------------------------ */
+
+
+/* ! LinkedIn Starts */
+.LinkedIn{
+  height: 44vw;
+}
+
+
+.LinkedInDiv{
+  width: 99vw;
+  height: 46vw;
+  background-size: cover;
+  background-image: url('../../public/Linkedin.png'); 
+  filter: blur(.3vw); 
+  background-repeat: no-repeat;
+}
+
+.LinkedInqrCode{
+  position: relative;
+  top: -38vw;
+  left: 41vw;
+}
+
+.LinkedInQR{
+  width: 20vw;
+}
+
+.LinkedInqrCodeText{
+  position: relative;
+  top: 0vw;
+  margin-bottom: 8vw;
+  left: -15vw;
+  width: 48vw;
+  padding: 1vw;
+  color: white;
+  background-color: black;
+}
+
+
+@media (max-width:700px) {
+  .LinkedInDiv{
+    background-image: url("../../public/LinkedInSmall.jpg");
+    width: 100vw;
+    height: 200vw;
+    background-size: contain;
+    filter: blur(.8vw); 
+    background-repeat: no-repeat;
+  }
+  .LinkedInqrCode {
+    position: relative;
+    top: -150vw;
+    left: 18vw;
+  }
+  .LinkedInQR{
+    width: 60vw;
+    
+  }
+  .LinkedInqrCodeText{
+    position: relative;
+    top: 0vw;
+    margin-bottom: 8vw;
+    left: -4vw;
+    padding: 3vw;
+    text-align: center;
+    width: 70vw;
+    color: black;
+    background-color: white;
+    font-size: 6vw;
+  }
+  
+}
+/* ! LinkedIn Ends */
+/* ?---------------------------------------------------------------------------------------------------------------------- */
+
+/* ! WhatsApp Starts */
+.WhatsApp{
+  height: 46vw;
+}
+
+.WhatsAppDiv{
+  width: 99vw;
+  height: 45vw;
+  background-size: contain;
+  background-image: url('../../public/WhatsApp.png'); 
+  filter: blur(.3vw); 
+  background-repeat: no-repeat;
+}
+
+.WhatsAppqrCode{
+  position: relative;
+  top: -40vw;
+  left: 41vw;
+}
+
+.WhatsAppQR{
+  width: 20vw;
+}
+
+.WhatsAppCodeText{
+  position: relative;
+  top: 0vw;
+  margin-bottom: 8vw;
+  left: -15vw;
+  width: 51vw;
+  padding: 1vw;
+  color: white;
+  background-color: black;
+}
+
+
+@media (max-width:700px) {
+  .WhatsAppDiv{
+    background-image: url("../../public/WhatsAppSmall.jpg");
+    width: 100vw;
+    height: 200vw;
+    background-size: contain;
+    filter: blur(.8vw); 
+    background-repeat: no-repeat;
+  }
+  .WhatsAppqrCode {
+    position: relative;
+    top: -150vw;
+    left: 20vw;
+  }
+  .WhatsAppQR{
+    width: 60vw;
+    
+  }
+  .WhatsAppCodeText{
+    position: relative;
+    top: 0vw;
+    margin-bottom: 8vw;
+    left: -6vw;
+    padding: 3vw;
+    text-align: center;
+    width: 70vw;
+    color: black;
+    background-color: white;
+    font-size: 6vw;
+  }
+  
+}
+
+/* ! WhatsApp Ends */

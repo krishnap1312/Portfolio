@@ -1,0 +1,54 @@
+.GithubBody{
+    background-color: #0d1117 ;
+    height: 100vw;
+    color: white;
+}
+
+.NavContent{
+    background-color: #010409;
+}
+
+.search{
+    position: absolute;
+    top:1.7vw;
+    left: 55.5vw;
+    font-weight: 100;
+    font-size: 1.25vw;
+    
+}
+
+.searchDiv{
+    margin: 1.5vw;
+}
+
+input{
+    
+    width: 20vw;
+    background-color: #010409;
+    margin: 1.5vw;
+    padding: .3vw 3.5vw;
+    border: 1px solid #585e68;
+    border-radius: .5vw;
+    
+}
+
+input:placeholder-shown{
+    font-size: 1vw;
+}
+
+.pipe{
+    position: absolute;
+    top: 1.4vw;
+    left: 76vw;
+    color: #585e68;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.inputlast{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    left: 72vw;
+    font-weight: lighter;
+    color: #585e68;
+    font-size: 1.2vw;
+}
