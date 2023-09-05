@@ -29,13 +29,7 @@ function HeaderComponent() {
             <Link to="/LinkedIn"> <span className='bi bi-linkedin'></span></Link>
           </dt>
 
-          <dt className='navicons' style={{ margin: '.8vw' }}>
-            <Link to="/Whatsapp"> <span className='bi bi-whatsapp'></span></Link>
-          </dt>
-
-          <dt className='navicons' style={{ margin: '.8vw' }}>
-            <Link to="/Instagram"> <span className='bi bi-instagram'></span></Link>
-          </dt>
+       
 
         </div>
         </div>

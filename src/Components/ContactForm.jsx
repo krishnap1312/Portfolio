@@ -52,8 +52,7 @@ function ContactForm() {
                     <div>
                         <Link to="/LinkedIn"><span className='formIcons  bi bi-linkedin'></span></Link>
                         <Link to="/GitHub"><span className='formIcons  bi bi-github'></span></Link>
-                        <Link to="/Instagram"><span className='formIcons  bi bi-instagram'></span></Link>
-                        <Link to="/Whatsapp"><span className='formIcons  bi bi-whatsapp'></span></Link>
+                        
                     </div>
                 </div>
 
