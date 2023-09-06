@@ -9,6 +9,13 @@ function WorkExp() {
                 <div className="timeline">
 
                     <div className="timeline-item">
+                        <h3>Fifasathi Human Resources Pvt Ltd.</h3>
+                        <p>Aug 2023 - Present</p>
+                        <p>Web Developer</p>
+                    </div>
+
+
+                    <div className="timeline-item">
                         <h3>Aloha Technology</h3>
                         <p>Apr 2022 - Dec 2022</p>
                         <p>Software Developer</p>
